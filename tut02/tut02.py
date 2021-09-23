@@ -25,6 +25,6 @@ def get_memory_score():
             f=0
 
     if f==0 :
-        print("Please enter a valid input list")
+        print("The input list is not valid")
     else :
         print(memory_score(input_nums))
